@@ -7,13 +7,13 @@ export function FormView({ onFormSubmit, email, onWriteEmail, wrongEmail }) {
     <div className="flex flex-col bg-White md:flex-row-reverse md:p-4 md:rounded-3xl">
       {/* Image */}
       <img
-        src="/illustration-sign-up-mobile.svg"
+        src="illustration-sign-up-mobile.svg"
         alt="Illustration"
         className="w-full md:hidden"
       />
 
       <img
-        src="/illustration-sign-up-desktop.svg"
+        src="illustration-sign-up-desktop.svg"
         alt="Illustration"
         className="hidden md:block"
       />
